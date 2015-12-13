@@ -54,6 +54,10 @@ defaults:
       author: "Azeril"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0680fd54a52a351153b56adfd502e33b700dd43f
 # Comments 
 comments :
   provider : duoshuo
