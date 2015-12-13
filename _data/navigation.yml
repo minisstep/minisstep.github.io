@@ -1,0 +1,16 @@
+# Site navigation links
+- title: Home
+  url: /
+  excerpt:
+  image:
+
+- title: MySQL
+  url: /mysql/
+
+
+- title: Python
+  url: /python/
+
+
+- title: About Me
+  url: /about/
