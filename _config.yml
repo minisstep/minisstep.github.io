@@ -1,23 +1,78 @@
 # Site settings
-title: Minisstep
-email: minisstep@163.com
-description: ministep
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+title: Ministep
+header-img: "img/autumn2.jpg"
+tagline: "minisstep"
+description: "坚持不懈，方能成功"
+baseurl: ""
+url: "minisstep.github.io"
+#url: "http://localhost:4000"
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  minisstep
-permalink: /:year/:month/:day/:title/
+# About/contact
+owner: 
+  name: "Ministep"
+  email: minisstep@163.com
+  bio: "强生健体和不断学习，才能永葆活力"
 
-# Build settings
+# Data
+gavatar: http://dreamofbook.qiniudn.com/Az..png
+favicon: img/favicon.ico
+
+douban_username: Minisstep
+twitter_username:  Minisstep
+github_username:  Minisstep
+facebook_username:  Minisstep
+weibo_username:  Minisstep
+zhihu_username:  Minisstep
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: pygments
 
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+gems: [jekyll-paginate]
+permalink: none
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Title
+
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Ministep"
+      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
+
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : ministep
+  disqus :
+      short_name : ministep
+
+
+#### Analytics and webmaster tools stuff goes here
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71341085-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+# Links to include in footer navigation
