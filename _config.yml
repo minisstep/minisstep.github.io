@@ -54,23 +54,6 @@ defaults:
       author: "Ministep"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
-#Links
-customLinks:
-  - item:
-    - text: Weibo
-      url: http://weibo.com/2810541501/profile?topnav=1&wvr=6&is_all=1
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
-    message: Friends
-  - item:
-    - text:github
-      url: https://github.com
-    - text: Google Font
-      url: http://www.google.com/fonts/
-    - text: jQuery
-      url: http://jquery.com/
 
 # Comments 
 comments :
