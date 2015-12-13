@@ -29,7 +29,10 @@ zhihu_username:  Minisstep
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
 kramdown:
-  input: GFM
+  input:          GFM
+  auto_ids:       true
+  auto_id_prefix: 'id-'
+safe: true
 highlighter: pygments
 
 gems: [jekyll-paginate]
@@ -41,6 +44,34 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 timezone: Asia/Shanghai
 
 # Title
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:  null
+# Handling Reading
+include:      [".htaccess"]
+exclude:      ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Lists
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+tag_items: 20     # Applies to categories and tags lists
+related_items: 3  # Fix 3 items in single post
+recent_items: 20  # Applies to recent posts, apps lists
+recent_posts: 7
+paginate: 5       # Applies to blog page for pagination
+# Pagination path › Important for blog page in /blog/ to work
+paginate_path: "/blog/page:num/"
+timezone:      null
 
 
 # Defaults for posts
@@ -53,24 +84,6 @@ defaults:
       layout: "post"
       author: "Ministep"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
-
-#Links
-customLinks:
-  - item:
-    - text: Weibo
-      url: http://weibo.com/2810541501/profile?topnav=1&wvr=6&is_all=1
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
-    message: Friends
-  - item:
-    - text:github
-      url: https://github.com/minisstep/minisstep.github.io
-    - text: Google Font
-      url: http://www.google.com/fonts/
-    - text: jQuery
-      url: http://jquery.com/
 
 # Comments 
 comments :
