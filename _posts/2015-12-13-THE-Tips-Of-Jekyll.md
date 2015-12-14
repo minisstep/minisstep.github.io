@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll博客 内容简单介绍
-categories: [blog]
+categories: [blog ]
 tags: [Tech, ]
 description: 良好习惯 估计也是从野蛮中培养出来的
 ---
