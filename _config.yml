@@ -1,35 +1,38 @@
 # Site settings
-title: Microdust
+title: Ministep
 header-img: "img/autumn2.jpg"
-tagline: "吉光片羽"  
-description: "在遙遠的地方 一切虔誠終必相遇"  
+tagline: "minisstep"
+description: "坚持不懈，方能成功"
 baseurl: ""
-url: "http://azeril.me"  
+url: "minisstep.github.io"
 #url: "http://localhost:4000"
 
 # About/contact
 owner: 
-  name: "Azeril"
-  email: azeril@live.cn
-  bio: "明朝即長路 惜取此時心"
+  name: "Ministep"
+  email: minisstep@163.com
+  bio: "强生健体和不断学习，才能永葆活力"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.ico
 
-douban_username: Azeril
-twitter_username: Azeril_Lapland  
-github_username: Azeril  
-facebook_username: Azeril_Lapland  
-weibo_username: Azeril  
-zhihu_username: Azeril  
+douban_username: Minisstep
+twitter_username:  Minisstep
+github_username:  Minisstep
+facebook_username:  Minisstep
+weibo_username:  Minisstep
+zhihu_username:  Minisstep
 
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
 kramdown:
-  input: GFM
+  input:          GFM
+  auto_ids:       true
+  auto_id_prefix: 'id-'
+safe: true
 highlighter: pygments
 
 gems: [jekyll-paginate]
@@ -41,6 +44,34 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 timezone: Asia/Shanghai
 
 # Title
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:  null
+# Handling Reading
+include:      [".htaccess"]
+exclude:      ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Lists
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+tag_items: 20     # Applies to categories and tags lists
+related_items: 3  # Fix 3 items in single post
+recent_items: 20  # Applies to recent posts, apps lists
+recent_posts: 7
+paginate: 5       # Applies to blog page for pagination
+# Pagination path › Important for blog page in /blog/ to work
+paginate_path: "/blog/page:num/"
+timezone:      null
 
 
 # Defaults for posts
@@ -51,21 +82,21 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "Ministep"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : Azeril
+    short_name : ministep
   disqus :
-      short_name : Azeril
+      short_name : ministep
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-66863061-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
-# Links to include in footer navigation
+#Analytics and webmaster tools stuff goes here
+googleAnaly:
+  config: true
+  id: UA-71341085-1
+#Links to include in footer navigation
+

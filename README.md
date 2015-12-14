@@ -1,6 +1,6 @@
-# Microdust 微尘
+# Ministep
 
-This is a blog created by Azeril. The blog is live at [azeril.me](http://azeril.me/).
+This is a blog created by ministep. 
 
 ## Thanks
 
