@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 怎么创建自己的第一个博客
-categories: [blog ]
+categories: [blog]
 tags: [Tech,blog ]
 description: 在Github上搭建Jekyll博客
 ---

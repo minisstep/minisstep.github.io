@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 个人版的文件命名规范
-categories: [blog ]
+categories: [blog]
 tags: [Tech, ]
 description: 良好习惯 估计也是从野蛮中培养出来的
 ---
