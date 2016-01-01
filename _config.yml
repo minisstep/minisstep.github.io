@@ -1,7 +1,8 @@
 # Site wide configuration
 
-title:
-description:
+title: 'Ministep'
+header-img: "img/autumn2.jpg"
+description: 'Live and learn'
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
@@ -18,17 +19,23 @@ kramdown:
 highlighter: pygments
 gems:
   - jekyll-sitemap
+permalink: none
+paginate: 8
+timezone: Asia/Shanghai
 
 
 # Site owner
 owner:
-  name:
-  email:
+  name: "Ministep"
+  email: minisstep@163.com
   twitter:
+    googleAnaly:
+    config: true
+    id: UA-71341085-1
   google:
     ad-client:
     ad-slot:
-  bio:
+  bio: "learn more"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
