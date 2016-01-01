@@ -1,26 +1,18 @@
-# Ministep
+# Skinny Bones Jekyll Starter
 
-This is a blog created by ministep. 
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-## Thanks
+**Jekyll 3 Update:** A version of Skinny Bones compatible with Jekyll 3 can be found in the [`jekyll3` branch](https://github.com/mmistakes/skinny-bones-jekyll/tree/jekyll3). GitHub Pages is [locked at version 2.4](https://pages.github.com/versions/) so some keep that in mind if you're trying to use 3.0 features that aren't supported there yet.
 
-The blog used many tool/service,many thanks to:
+I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
-* [Github](https://github.com/), all the data based on;
-* [Git](https://git-scm.com/), blogs and code files version control system;
-* [Jekyll](http://jekyllrb.com/), a static site generator;
-* [Clean Blog Theme](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll), a theme by Start Bootstrap;
-* [Markdown](https://daringfireball.net/projects/markdown/), a beautiful lightweight markup language.
-* [DNSPod](https://www.dnspod.cn/), the DNS service provider who surport the domain name resolution;
-* [Duoshuo](http://duoshuo.com/), a socialization comments plugin.
-* [Google](http://google.com), the one who tell me how to make it.
-* …
+![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
 
-## How To Creat A Jekyll Blog
+---
 
-[Build-Your-First-GitHub-Pages-Blog](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
+## Notable Features
 
-Build your blog Step by step
-## Just write
-
-Start writing now！
+* Stylesheet built using Sass. *Requires Jekyll 2.x*
+* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
+* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* And more.
