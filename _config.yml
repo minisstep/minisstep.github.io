@@ -1,43 +1,34 @@
-# Site wide configuration
-
-title: 'Ministep'
-header-img: "img/autumn2.jpg"
-description: 'Live and learn'
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
-url:
-
-# Jekyll configuration
-
-sass:
-    sass_dir: _sass
-    style: compressed
-permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..2
-highlighter: pygments
-gems:
-  - jekyll-sitemap
-permalink: none
-paginate: 8
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+pygments: true
 timezone: Asia/Shanghai
 
+kramdown:
+  input: GFM
 
-# Site owner
-owner:
-  name: "Ministep"
+# 作者信息
+author: 
+  name: minisstep
   email: minisstep@163.com
-  twitter:
-    googleAnaly:
-    config: true
-    id: UA-71341085-1
-  google:
-    ad-client:
-    ad-slot:
-  bio: "learn more"
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+  link: http://www.minisstep.com
+  weibo: http://weibo.com/u/2810541501
+  github: https://github.com/minisstep
 
+# 站点信息
+title: minisstep
+description:唯有强壮的体魄和进取的心才能勇往直前
+url: http://www.minisstep.com
+rss_url: /pages/atom.xml
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+# avatar头像及Favicon
+avatar: images/favicon.png
+favicon: images/favicon.ico
+
+# google analytics 设置
+ga:
+  id: UA-71930253-1
+  url: minisstep.com
+
+# disqus 设置
+disqus:
+  shortname: minisstep
