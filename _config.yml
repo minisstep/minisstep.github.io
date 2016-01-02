@@ -10,14 +10,14 @@ kramdown:
 author: 
   name: minisstep
   email: minisstep@163.com
-  link: http://www.minisstep.com
+  link: http://weibo.com/u/2810541501
   weibo: http://weibo.com/u/2810541501
   github: https://github.com/minisstep
 
 # 站点信息
 title: minisstep
 description: 唯有强壮的体魄和进取的心才能勇往直前
-url: http://www.minisstep.com
+url: 
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
@@ -27,7 +27,7 @@ favicon: images/favicon.ico
 # google analytics 设置
 ga:
   id: UA-71930253-1
-  url: www.minisstep.com
+  url: minisstep.io
 
 # disqus 设置
 disqus:
