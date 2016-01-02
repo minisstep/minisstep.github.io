@@ -27,7 +27,7 @@ favicon: images/favicon.ico
 # google analytics 设置
 ga:
   id: UA-71930253-1
-  url: minisstep.com
+  url: www.minisstep.com
 
 # disqus 设置
 disqus:
